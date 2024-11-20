@@ -1,4 +1,7 @@
 import localdateandtime.*;
+import zonedtime.LocaleAndDateTimeFormatter;
+import zonedtime.SystemZonedTime;
+import zonedtime.ZonedTimeAndConversion;
 
 public class Main {
     public static void main(String[] args) {
@@ -41,6 +44,12 @@ public class Main {
         ZonedTime with respect to system
          */
         SystemZonedTime.display();
+        endOfLine();
+
+        /*
+        Locale and DateTimeFormatter
+         */
+        LocaleAndDateTimeFormatter.display();
         endOfLine();
     }
 
