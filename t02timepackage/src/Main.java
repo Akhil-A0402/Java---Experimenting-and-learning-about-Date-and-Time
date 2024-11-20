@@ -1,5 +1,6 @@
 import localdateandtime.ExtractToAndFroLocaDateTime;
 import localdateandtime.LocalExample;
+import localdateandtime.OperationsOnLocalDateTime;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,6 +13,12 @@ public class Main {
         Convert the LocalDate and LocalTime to LocalDateTime and fro
          */
         ExtractToAndFroLocaDateTime.display();
+        endOfLine();
+
+        /*
+        Operations on LocalDateTime
+         */
+        OperationsOnLocalDateTime.display();
         endOfLine();
     }
 
